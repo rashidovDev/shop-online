@@ -1,0 +1,48 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: 0;
+ }
+ 
+ .navbar-nav li a{
+     font-size: 17px;
+ }
+
+ .navbar-brand{
+     letter-spacing: 2px;
+ }
+
+ /* Card */
+
+ .card{
+     transition: all 0.5s ease;
+ }
+
+ .card:hover{
+     transform: scale(1.1);
+     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+ }
+
+.product1 img{
+     transition: all 0.5s ease;
+ }
+
+.product1 img:hover{
+     transform: translateY(-10)
+ }
+
+ @media screen  and (max-width : 600px) { 
+      
+    .d-block{
+        height: 350px;
+    }
+    .btn1{
+        visibility: hidden;
+    }
+    .about{
+        width:80%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        height: 230px;
+    }
+ }
